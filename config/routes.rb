@@ -1,4 +1,8 @@
-MySampleApp::Application.routes.draw do
+MyTwitter::Application.routes.draw do
+
+  get "users/new"
+  
+  match '/signup',  :to => 'users#new'
 
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
@@ -53,7 +57,8 @@ MySampleApp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  
+  root :to => "pages#home"
 
   # See how all your routes lay out with "rake routes"
 
