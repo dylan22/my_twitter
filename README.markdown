@@ -1,4 +1,3 @@
-My mimi twitter application
-
+My mini twitter application
 
 Comming soon!
