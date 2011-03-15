@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110314143052) do
+ActiveRecord::Schema.define(:version => 20110315110331) do
 
 # Could not dump table "users" because of following StandardError
 #   Unknown type 'srting' for column 'encrypted_password'
